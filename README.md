@@ -4,7 +4,8 @@ Algorithm Study
 # 공지사항
 ```
 1. 다음 모임 날짜: 2020-10-26
-2. ~~~
+2. 채점 사이트 : https://book.algospot.com/problems.html, https://www.acmicpc.net/
+3. ~~
 ```
 
 # Setting 
