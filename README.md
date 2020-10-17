@@ -1,7 +1,7 @@
 # KaKAO99
 Algorithm Study
 
-#1 Setting 
+# Setting 
 1. git clone https://github.com/supin2/KaKAO99
 2. 폴더 생성
 3. git pull
@@ -10,7 +10,7 @@ Algorithm Study
 6. git push
 
 
-#1 공지사항
+# 공지사항
 ```
 1. 
 ```
