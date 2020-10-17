@@ -3,8 +3,12 @@ Algorithm Study
 
 # 공지사항
 ```
-1. 다음 모임 날짜: 2020-10-26
-2. 채점 사이트 : https://book.algospot.com/problems.html, https://www.acmicpc.net/
+1. 모임 날짜
+   offline : 매주 화요일 오후 7시
+   online : 매주 토요일 오전 11시
+2. 채점 사이트
+   https://book.algospot.com/problems.html
+   https://www.acmicpc.net/
 3. ~~
 ```
 
