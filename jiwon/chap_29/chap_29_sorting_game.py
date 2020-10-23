@@ -17,3 +17,69 @@
 
 # 출력
 # 각 테스트 케이스마다 입력을 정렬하기 위해 필요한 최소 뒤집기 연산의 수를 출력한다.
+class NumSeq:
+  def __init__(self, key):
+    self.key = key
+    self.distance = -1
+    self.discovered = True
+  def setDistance(self, d):
+    self.distance = d
+  def getDistance(self):
+    return self.distance
+  def setDiscovered(self, d):
+    self.discovered = d
+  def getDiscovered(self):
+    return self.discovered
+  def getKey(self):
+    return self.key
+
+dict = {}
+
+def reverseString(str, start, end):
+  pre = str[:start]
+  post = str[end+1:]
+  return pre + ''.join(reversed(list(str[start: end+1]))) + post
+
+
+# Start
+
+def solution(given, sortedStr):
+  queue = []
+  queue.append(sortedStr)
+  dict[sortedStr] = NumSeq(sortedStr)
+  dict[sortedStr].setDistance(0)
+
+  currNode = ''
+  while(given != currNode):
+    # print('currNode', currNode, given)
+    if (len(queue) == 0): break
+    currNode = queue.pop(0)
+    # 현재 노드 주변 탐색
+    for i in range(1, len(currNode)):
+      start = 0
+      end = start + i
+      while (end <= len(currNode)):
+        newNode = reverseString(currNode, start, end)
+        if newNode not in dict:
+          dict[newNode] = NumSeq(newNode)
+          dict[newNode].setDistance(dict[currNode].getDistance() + 1)
+          queue.append(newNode)
+        start += 1
+        end += 1
+  return dict[currNode].getDistance()
+
+N = int(input())
+ansList = []
+for x in range(N):
+  length = input()
+  numList = list(map(lambda n: int(n), input().split(' ')))
+  sortedList = sorted(numList)
+  numSeqStr = ''
+  sortedStr = ''
+  for i, y in enumerate(numList):
+    numSeqStr += str(sortedList.index(y) + 1)
+    sortedStr += str(i+1) 
+  
+  ansList.append(solution(numSeqStr, sortedStr))
+for x in ansList:
+  print(x)
