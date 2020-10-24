@@ -31,7 +31,10 @@ Algorithm Study
 
 # 진행
 #### 1주차 (~10/27)
-| Column 1 | Column 2 | Column 3 | Column 4 |
-| -------- | :------: | -------- | -------- |
-| No span  | Span across three columns    |||
-
+* 그래프의 깊이 우선 탐색
+** 28.8 감시 카메라 설치
+** 28.10 회의실 배정
+* 그래프의 너비 우선 탐색
+** 29.2 Sorting Game
+** 29.4 어린이날
+* 공통문제: [연구소](https://www.acmicpc.net/problem/14502)
