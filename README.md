@@ -9,8 +9,16 @@ Algorithm Study
 2. 채점 사이트
    https://book.algospot.com/problems.html
    https://www.acmicpc.net/
-3. ~~
+3. 규칙
+3.1. 해야할 일
+   (1) 책에 있는 문제 4개, 외부 문제 1개 해결
+   (2) 책에 있는 문제 중 1개 설명
+3.2. 패널티
+   (1) 지각: 양심에 맞김
+   (2) 결석: 3만원
+   (3) 숙제X: 미해결 문제당 2천원, 고의적인 경우 5천원
 ```
+
 
 # Setting 
 1. git clone https://github.com/supin2/KaKAO99
