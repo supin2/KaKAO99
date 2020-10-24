@@ -29,3 +29,9 @@ Algorithm Study
 6. git push
 
 
+# 진행
+#### 1주차 (~10/27)
+| Column 1 | Column 2 | Column 3 | Column 4 |
+| -------- | :------: | -------- | -------- |
+| No span  | Span across three columns    |||
+
