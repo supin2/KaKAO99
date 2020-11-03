@@ -47,3 +47,12 @@ Algorithm Study
    - 6.5 게임판 덮기
    - 6.8 시계 맞추기
    - 백준 : [토너먼트](https://www.acmicpc.net/problem/1057)
+   
+
+# 진행
+#### 3주차 (~11/10)
+- 동적 계획법
+   - 8.2 와일드카드(https://algospot.com/judge/problem/read/WILDCARD)
+   - 8.5 합친 LIS(https://algospot.com/judge/problem/read/JLIS)
+   - 8.7 원주율 외우기(https://algospot.com/judge/problem/read/PI)
+   - 8.9 Quantization(https://algospot.com/judge/problem/read/QUANTIZE)
