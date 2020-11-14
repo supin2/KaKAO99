@@ -40,7 +40,6 @@ Algorithm Study
 - 공통문제: [연구소](https://www.acmicpc.net/problem/14502)
 
 
-# 진행
 #### 2주차 (~11/3)
 - 무식하게 풀기
    - 6.3 소풍
@@ -49,10 +48,15 @@ Algorithm Study
    - 백준 : [토너먼트](https://www.acmicpc.net/problem/1057)
    
 
-# 진행
-#### 3주차 (~11/10)
+#### 3주차 (~11/14)
 - 동적 계획법
    - 8.2 [와일드카드](https://algospot.com/judge/problem/read/WILDCARD)
    - 8.5 [합친 LIS](https://algospot.com/judge/problem/read/JLIS)
    - 8.7 [원주율 외우기](https://algospot.com/judge/problem/read/PI)
    - 8.9 [Quantization](https://algospot.com/judge/problem/read/QUANTIZE)
+   
+   
+#### 4주차 (~11/20)
+- 동적 계획법
+   - [RGB거리](https://www.acmicpc.net/problem/1149)
+   - [평범한 ](https://www.acmicpc.net/problem/12865)
