@@ -59,4 +59,4 @@ Algorithm Study
 #### 4주차 (~11/20)
 - 동적 계획법
    - [RGB거리](https://www.acmicpc.net/problem/1149)
-   - [평범한 ](https://www.acmicpc.net/problem/12865)
+   - [평범한 배낭](https://www.acmicpc.net/problem/12865)
