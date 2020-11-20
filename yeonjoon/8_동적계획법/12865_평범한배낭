@@ -5,15 +5,21 @@ using namespace std;
 const int MAX_K = 100000;
 const int MAX_N = 100;
 
-int things[MAX_N+1][2];
-int cache[MAX_K+1][MAX_N+1];
+int things[MAX_N+3][2];
+int cache[MAX_K+5][MAX_N+5];
 
 const int WEIGHT = 0;
 const int VALUE = 1;
 
+// int cnt = 0;
+
 int knapsack(int index, int capacity){
     
-    if( index == 0 )
+    // int tmp = ++cnt;
+    
+    // cout << tmp << " " << index << ", " << capacity << endl;
+    
+    if( index == 0)
         return 0;
         
     int& ret = cache[capacity][index];
@@ -27,6 +33,7 @@ int knapsack(int index, int capacity){
     if(capacity >= things[index][WEIGHT])
         ret = max(ret, (knapsack(index-1, capacity-things[index][WEIGHT]) + things[index][VALUE]));
     
+    // cout << tmp << " " << ret << endl;
     return ret;
 }
 
@@ -35,7 +42,7 @@ int main()
     int N, K; 
     cin >> N >> K;
     
-    fill(&cache[0][0], &cache[MAX_K][MAX_N], -1);
+    fill(&cache[0][0], &cache[MAX_K+3][MAX_N+3], -1);
     
     for( int i = 1 ; i <= N ; i ++ ){
         
