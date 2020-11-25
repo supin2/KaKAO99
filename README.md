@@ -64,7 +64,7 @@ Algorithm Study
    
 #### 5주차 (~11/27)
 - 동적 계획법
-   - [폴리오미노](https://algospot.com/judge/problem/read/POLY)
-   - [두니발 박사의 탈옥](http://algospot.com/judge/problem/read/NUMB3RS)
-   - [드래곤 커브](http://algospot.com/judge/problem/read/DRAGON)
-   - [실험 데이터 복구하기](http://algospot.com/judge/problem/read/RESTORE)
+   - 8.14 [폴리오미노](https://algospot.com/judge/problem/read/POLY)
+   - 8.16 [두니발 박사의 탈옥](http://algospot.com/judge/problem/read/NUMB3RS)
+   - 9.9 [드래곤 커브](http://algospot.com/judge/problem/read/DRAGON)
+   - 9.14 [실험 데이터 복구하기](http://algospot.com/judge/problem/read/RESTORE)
