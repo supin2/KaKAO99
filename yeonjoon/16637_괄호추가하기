@@ -1,0 +1,43 @@
+#include <iostream>
+#include <cstdlib>
+
+using namespace std;
+
+int sol(string expression){
+    int max = 0;
+    if(expression.size() == 1)
+        return expression.at(0) - 48;
+
+    for(int i = 1; i < expression.size() ; i += 2){
+        char op = expression.at(i);
+        int operand1 = sol(expression.substr(0,i));
+        int operand2 = sol(expression.substr(i+1));
+        int result = 0;
+        switch(op){
+            case '+':
+                result = operand1 + operand2;
+                break;
+            case '-':
+                result = operand1 - operand2;
+                break;
+            case '*':
+                result = operand1 * operand2;
+                break;
+        }
+        if(result > max)
+            max = result;
+    }
+    return max;
+}
+
+
+int main()
+{
+    int N;
+    cin >> N;
+    
+    string expression;
+    cin >> expression;
+
+    cout<< sol(expression);
+}
